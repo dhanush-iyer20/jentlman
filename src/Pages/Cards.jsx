@@ -1,13 +1,15 @@
-import React from 'react'
-import Card from '../components/Card'
-import styles from '../style'
+import React from "react";
+import Card from "../components/Card";
+import styles from "../style";
+console.log("hello");
+
 const Cards = () => {
   return (
-    <div className=' flex flex-col mt-[200px] '>
-    <h1 className={`${styles.heading2} text-center mb-10`}>Why us?</h1>
+    <div id="pain" className=" flex flex-col mb-[100px] ">
+      <h1 className={`${styles.heading2} text-center mb-10`}>Problems</h1>
       <Card />
     </div>
-  )
-}
+  );
+};
 
-export default Cards
+export default Cards;

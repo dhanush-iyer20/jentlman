@@ -3,7 +3,7 @@ import {Clients} from '../components/index.js'
 import styles from '../style.js'
 const Shaderecommend = () => {
   return (
-    <div className={`${styles.flexStart} ${styles.paddingX} bg-primary mb-[300px]`}>
+    <div id='toneid' className={`${styles.flexStart} ${styles.paddingX} bg-primary mb-[300px]`}>
         <div className={`${styles.boxWidth}`}>
           <Clients />
         </div>

@@ -15,7 +15,7 @@
     144.39deg,
     #ffffff -278.56%,
     #6d6d6d -78.47%,
-    #11101d 91.61%,
+    #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -52,7 +52,12 @@
   );
 }
 .bg-blue2-gradient {
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(162,115,224,1) 46%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(162, 115, 224, 1) 46%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .bg-black-gradient {
@@ -116,12 +121,17 @@
   }
 }
 
-.feature-card{
+.cardist:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
-
 }
-
+.cardist {
+  transition: all 1s ease;
+}
+.feature-card {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
 
 .feedback-container .feedback-card:last-child {
   margin-right: 0px;
@@ -148,7 +158,6 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.1);
   filter: blur(750px);
-  
 }
 ::-webkit-scrollbar {
   width: 5px;
@@ -169,21 +178,20 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-.item{
-  margin:0;
+.item {
+  margin: 0;
 }
-.card:hover{
+.card:hover {
   transform: rotateY(180deg);
 }
-.card{
+.card {
   transition: transform 1000ms;
-  transform-style:preserve-3d ;
+  transform-style: preserve-3d;
 }
-.back{
+.back {
   visibility: hidden;
-  transform: rotateY('180deg');
+  transform: rotateY("180deg");
 }
-
 
 figure {
   position: relative;

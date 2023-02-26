@@ -3,7 +3,7 @@ import {Business} from '../components/index.js'
 import styles from '../style.js'
 const Features = () => {
   return (
-    <div className={`${styles.flexStart} ${styles.paddingX} bg-primary`}>
+    <div id='whyus' className={`${styles.flexStart} ${styles.paddingX} bg-primary mb-[100px]`}>
         <div className={`${styles.boxWidth}`}>
           <Business />
         </div>

@@ -3,16 +3,31 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 export const navLinks = [
   
   {
-    id: "",
-    title: "Market",
+    id: "pain",
+    title: "Problems",
   },
   {
-    id: "",
-    title: "STP",
+    id: "whyus",
+    title: "Why us?",
   },
   {
-    id: "",
-    title: "Unit economics",
+    id: "products",
+    title: "Products",
+  },
+  
+  
+  
+  {
+    id: "promo",
+    title: "Promotion",
+  },
+  {
+    id: "market",
+    title: "Place",
+  },
+  {
+    id: "toneid",
+    title: "Tone ID",
   },
 ];
 
@@ -22,21 +37,21 @@ export const features = [
     icon: star,
     title: "Affordable",
     content:
-      "The best facewash in the market that goes easy on your pockets",
+      "The best skincare products in the market that goes easy on your pockets",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "FDA Approved",
+    title: "Comfort",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We are trying to make a comfort brand for men who want to do skincare and apply makeup",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Easy on the skin",
+    title: "Experimental Range",
     content:
-      "A balance of ayurvedic and modern ingredients to make a perfect blend for the skin.",
+      "We will be launching an experimental range of products including Mascara, Eye-liner, etc",
   }
 ];
 
@@ -70,18 +85,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Ayurvedic ingredients",
-    value: "20+",
+    title: "",
+    value: "",
   },
   {
     id: "stats-2",
-    title: "Happy customers",
-    value: "230+",
+    title: "",
+    value: "",
   },
   {
     id: "stats-3",
-    title: "Carbon footprint",
-    value: "0",
+    title: "",
+    value: "",
   },
 ];
 

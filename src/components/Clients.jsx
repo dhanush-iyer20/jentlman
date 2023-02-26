@@ -26,19 +26,19 @@ function getEventLocation(element,event){
 
 const items = [
   {
-  id:1,title:'Skin tone: Type 1',desc:"Your tone has been updated to Type 1",unitEcoCost:"",sp:""
+  id:1,title:'Tone ID: Type 1',desc:"Your tone ID has been updated to Type 1",unitEcoCost:"",sp:""
 },
   {
-  id:2,title:'Skin tone: Type 2',desc:"Your tone has been updated to Type 2",unitEcoCost:"",sp:""
+  id:2,title:'Tone ID: Type 2',desc:"Your tone ID has been updated to Type 2",unitEcoCost:"",sp:""
 },
   {
-  id:3,title:'Skin tone: Type 3',desc:"Your tone has been updated to Type 3",unitEcoCost:"",sp:""
+  id:3,title:'Tone ID: Type 3',desc:"Your tone ID has been updated to Type 3",unitEcoCost:"",sp:""
 },
   {
-  id:4,title:'Skin tone: Type 4',desc:"Your tone has been updated to Type 4",unitEcoCost:"",sp:""
+  id:4,title:'Tone ID: Type 4',desc:"Your tone ID has been updated to Type 4",unitEcoCost:"",sp:""
 },
   {
-  id:5,title:'Skin tone: Type 5',desc:"Your tone has been updated to Type 5",unitEcoCost:"",sp:""
+  id:5,title:'Tone ID: Type 5',desc:"Your tone ID has been updated to Type 5",unitEcoCost:"",sp:""
 },
   {
   id:6,title:'Error',desc:"Sorry, Please try again",unitEcoCost:"",sp:""
@@ -60,8 +60,8 @@ const Clients = () => {
   return (
    <><section id='featues' className={`${layout.section}`}>
     <div className={`${layout.sectionInfo2} `}>
-    <h2 className={styles.heading2}>Color recommedations <br className='sm:block hidden'/> </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-7`}>This is a simple scanner that lets you upload images and select a skin tone for you and suggests you colors that would be best for your skin tone. Get started by clicking on choose file</p>
+    <h2 className={styles.heading2}>Find out your Tone ID <br className='sm:block hidden'/> </h2>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-7`}>Upload an image and click on your skin and press assign.It will assign a Tone ID for you with which you can order from other stores or our website</p>
     <input
     className="rounded-3 mt-0 font-poppins bg-blue-gradient text-black"
     type="file"
@@ -143,8 +143,8 @@ const Clients = () => {
         setModalState(()=>{
           return true
         })
-      }}>Recommend</button>
-      {showText && <h4 className='text-white font-poppins text-2xl mt-6'>Press recommend to continue</h4>}
+      }}>Assign Tone ID</button>
+      {showText && <h4 className='text-white font-poppins text-2xl mt-6'>Press Assign Tone ID to continue</h4>}
       <div style={{backgroundColor: rgbState}} className={`h-[100px] w-[100px] rounded-[5px] ${!rgbState?"hidden":"flex"} text-white mt-10`}>
       </div>
       </div>

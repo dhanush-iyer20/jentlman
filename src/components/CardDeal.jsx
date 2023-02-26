@@ -13,8 +13,10 @@ const CardDeal = () => {
 
 
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Find your perfect<br className='sm:block hidden'/>face partner</h2>
-        <p className={`${styles.paragraph} mt-5 mb-8 max-w-[480px]`}>This was made by out team of insane expert people who love designing</p>
+        <h2 className={styles.heading2}>Who are we <br className='sm:block hidden'/>targeting?</h2>
+        <audio controls>
+            <source src="./sound.mp3" type="audio/mp3" />
+         </audio>
       </div>
 
       

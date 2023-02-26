@@ -29,8 +29,16 @@ import concealer from "./concealer.png";
 import foundation from "./foundation.png";
 import facewash from "./facewash.png";
 import hairremover from "./hairremover.png";
-
+import influencer from './influencer.jpeg'
+import nykaa from './nykaa.png'
+import Flipkart from './Flipkart.png'
+import ad from './ad.jpeg'
+import contest from './contest.jpeg'
 export {
+  contest,
+  ad,
+  nykaa,
+  Flipkart,
   concealer,
   foundation,
   facewash,
@@ -62,4 +70,5 @@ export {
   people03,
   graph,
   girlface,
+  influencer
 };
